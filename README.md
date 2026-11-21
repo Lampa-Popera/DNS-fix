@@ -16,6 +16,7 @@
 2. Запустите его.
 3. Подождите пару минут, пока идёт тестирование всех серверов.
 4. Скрипт сам выберет лучший DNS, применит его и покажет результат проверки.
+
 *Примечание: После теста рядом со скриптом создастся лог-файл с результатами!*
 
 ## Дополнительные команды
@@ -23,6 +24,7 @@
 - `-OnlyTest` — только протестировать все DNS и показать таблицу (ничего не меняя в системе).
 - `-Reset` — вернуть автоматическое получение DNS.
 - `-Provider <имя>` — протестировать и применить конкретный DNS (например, `-Provider adguard` или `-Provider yandex`).
+
 *Пример: `DNS-fix.bat -OnlyTest`*
 
 ##  Что ещё нужно знать?
@@ -50,6 +52,7 @@ A Windows script that automatically finds the fastest and most reliable DNS serv
 2. Run it.
 3. Wait a couple of minutes while all servers are being tested.
 4. The script will automatically select the best DNS, apply it, and show the test results.
+
 *Note: After the test, a log file with the results will be created next to the script!*
 
 ### Additional commands
@@ -57,6 +60,7 @@ If you run the script via the command line, you can use the following arguments:
 - `-OnlyTest` — test all DNS servers and show the table only (without changing anything in the system).
 - `-Reset` — revert to automatic DNS (DHCP).
 - `-Provider <name>` — test and apply a specific DNS provider (e.g., `-Provider adguard` or `-Provider yandex`).
+
 *Example: `DNS-fix.bat -OnlyTest`*
 
 ###  What else you need to know
