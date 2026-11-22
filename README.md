@@ -15,7 +15,7 @@
 ## Файлы в проекте
 В релизе (вкладка Releases) доступны следующие файлы:
 - **`DNS-fix (version).bat`** — основной скрипт. Тестирует DNS для YouTube, показывает Топ-3 лучших варианта и предлагает выбрать нужный.
-- **`Custom DNS Tester.bat`** — скрипт для теста конкретного домена.
+- **`Custom DNS Tester.bat`** — скрипт для теста конкретного домена. **Не работает без** **`DNS-fix (version).bat`**.
 - **`Refund.bat`** — скрипт для отката. Возвращает автоматическое получение DNS (DHCP), если что-то пошло не так.
 
 ## Как запустить?
@@ -59,7 +59,7 @@ A Windows script that automatically finds the fastest and most reliable DNS serv
 ### Files in the project
 The release (Releases tab) includes the following files:
 - **`DNS-fix 0.2.bat`** — the main script. Tests DNS for YouTube, shows the Top-3 best options, and lets you choose.
-- **`Custom DNS Tester.bat`** — script for testing a specific domain.
+- **`Custom DNS Tester.bat`** — a script for testing a specific domain. **Does not work without** **`DNS-fix (version).bat`**.
 - **`Refund.bat`** — rollback script. Reverts to automatic DNS (DHCP) if something goes wrong.
 
 ### How to run?
