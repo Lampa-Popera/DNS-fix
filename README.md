@@ -29,7 +29,7 @@
 ---
 ---
 
-## 🇬🇧 English Version
+## English Version
 
 **YouTube DNS rescue kit**
 
